@@ -1,0 +1,20 @@
+Sprint n.1
+
+Sviluppare dei MOCK UP con dati in RAM di BlogService e BloggerService in Angular.
+Proporre dei metodi che serviranno ai componenti Blog, Blogger, FrontPage ecc... (vedere i todo degli altri gruppi).
+
+Preparare dati di provare che serviranno agli altri gruppi, e un componente TestService che permetta 
+di testare graficamente i servizi scritti.
+
+Non si pretende di esaurirli, ma almeno di preparare quei metodi che potrebbero servire agli altri gruppi per 
+provare i loro lavori con dati di prova centralizzati che ricalchino il vero model. 
+
+Sviluppare di conseguenza anche la cartella model con dentro tutte le entities, che dovranno rispecchiare 
+i DTO del backend.
+
+Ricordarsi di mettere la documentazione su ogni metodo.
+
+Lavorare su una branch di nome dev-services-mockup. Una volta terminato, loggarsi su git hub e fare la pull request.
+Prova il tutto modificando il componente app e usando TestService, poi reversare i cambiamenti per evitare conflitti 
+in fase di merge.
+

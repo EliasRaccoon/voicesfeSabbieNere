@@ -1,0 +1,17 @@
+Sprint n.1
+
+Sviluppare il componente Blog.
+
+Il componente Blog riporta i dati generali del blogger e gli ultimi 3 post di un blog, e ha dei bottoni di paginazione 
+per andare avanti e indietro fra i post mostrati (ultimi 4, dal 4 al 6, ecc..).
+
+I Post si vedono per esteso, ma per vedere i commenti bisognerà cliccarci sopra.
+Bisogna quindi sviluppaere il componente Blog e il componente BlogPost. Il componente BlogPost deve rispettare grassetti, corsivi
+e paragrafi presenti nel contenuto del post.
+Mettere i dati di prova e le interfacce all'interno della cartella del componente. Un domani 
+bisognerà modificare per unificare col model.
+
+Non modificare nessun file se non il componente. Testarlo in app, poi fare restore di app allo stato precedente 
+per evitare di incorrere in conflitti al momento del merge. Rispettare la palette specificata nel blog.
+
+Lavorare su una branch di nome dev-blog. Una volta terminato, loggarsi su git hub e fare la pull request.

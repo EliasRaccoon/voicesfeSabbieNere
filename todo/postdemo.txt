@@ -1,0 +1,14 @@
+Sprint n.1
+
+Creare un componente PostDemo
+con interfacce di prova
+che non saranno quelle definitive
+
+provarlo in app 
+poi reversare app 
+poi pushare su una branch
+di nome Post Demo.
+
+Una volta finito, creare una pull request.
+Mergiare online, fare pull 
+per avere la versione mergiata.

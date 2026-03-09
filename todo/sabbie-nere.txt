@@ -1,0 +1,17 @@
+Sprint n.1
+
+Preparare la pagina che mostri un post per intero, il componente Blog-Post-Full.
+La pagina deve contenere:
+
+- un collegamento al blog a cui appartiene
+- un collegamento all'autore
+- il titolo del post
+- il contenuto del post, correttamente formattato. Il testo deve essere 
+presentato in paragrafi e deve riconoscere corsivi e grassetti.
+- l'elenco dei commenti in fondo, con una form per aggiungere un nuovo commento, funzionante localmente 
+come mockup.
+
+Testare il componente nel componente app, poi reversare le modifiche per evitare di incorrere in conflitti.
+Lavorare sulla branch dev-blog-post-full. Una volta terminato, loggarsi su git hub e fare la pull request.
+Usare dati di prova, interfacce e file create dentro la cartella del componente. Sono solo provvisori.
+Intonarsi alla palette del blog. 

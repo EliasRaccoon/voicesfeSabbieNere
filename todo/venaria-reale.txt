@@ -1,0 +1,17 @@
+Sprint n.1
+
+Sviluppare il componente Blogger.
+
+Il componente Blogger deve riportare i dati pubblici del blogger e l'elenco dei suoi blog. Per ogni blog 
+riportare anche il titolo degli ultimi 3 post. Ogni blog o titolo deve essere cliccabile e portare all'oggetto relativo.
+
+Non disponendo ancora dei relativi componenti (blog, blogpost) che verranno sviluppati in terre senza nome, dovrete linkare a 
+un componente di nome "Under construction".
+
+Sviluppare inoltre un componente di login FormLoginBlogger. Non essendoci i service, la chiamata a service dovrà essere solo simulata.
+Non permettere di 
+
+Non modificare nessun file se non il componente. Creare i file di prova e le interfacce dentro la cartella 
+del componente, sapendo che sono temporanei e che andranno sincronizzati dopo.
+
+Lavorare su una branch di nome dev-blogger. Una volta terminato, loggarsi su git hub e fare la pull request
