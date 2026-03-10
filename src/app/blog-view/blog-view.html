@@ -1,0 +1,9 @@
+<h2> {{blog().title}}</h2>
+<!--
+    for(BlogPost post:blog.posts)
+        new BlogPostPreview(post);
+-->
+@for(post of blog().posts ; track post.id){
+    <app-blog-post-preview [post]="post"></app-blog-post-preview>
+}
+

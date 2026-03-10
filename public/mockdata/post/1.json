@@ -1,0 +1,17 @@
+{
+    "id":"1",
+    "title":"Post 1",
+    "content":"a \n b\n c\n d\n",
+    "tags":"java",
+    "date":"2026-01-01",
+    "blog":{
+        "id":"1",
+        "title":"Blog 1",
+        "description":"Blog java",
+        "blogger":{
+            "id":"1",
+            "nickname":"Java Sifu",
+            "bio":"Blogger Java"
+        }
+    }
+}
