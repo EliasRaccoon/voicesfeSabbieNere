@@ -1,0 +1,31 @@
+{
+    "id": "2",
+    "title": "Post 2",
+    "content": "La **programmazione orientata agli oggetti** è il paradigma centrale di Java. Tutto ruota attorno al concetto di *classe*: un modello che descrive struttura e comportamento di un oggetto.\n\nUna classe definisce campi (lo stato) e metodi (il comportamento). Quando istanziamo una classe con `new`, otteniamo un oggetto concreto che vive nella heap della JVM.\n\nL'**ereditarietà** permette a una classe figlia di riutilizzare il codice della classe padre, mentre il *polimorfismo* consente di trattare oggetti diversi in modo uniforme tramite un'interfaccia comune.\n\nNel prossimo post entreremo nel dettaglio delle **Collections**: `List`, `Map`, `Set` e quando usare ciascuna.",
+    "tags": "java",
+    "date": "2026-01-02",
+    "blog": {
+        "id": "1",
+        "title": "Blog 1",
+        "description": "Blog java",
+        "blogger": {
+            "id": "1",
+            "nickname": "Java Sifu",
+            "bio": "Blogger Java"
+        }
+    },
+    "comments": [
+        {
+            "id": "4",
+            "author": "sara_backend",
+            "text": "Interessante, continua così!",
+            "date": "2026-01-03"
+        },
+        {
+            "id": "5",
+            "author": "mario_rossi",
+            "text": "Aspetto la parte sulle Collections.",
+            "date": "2026-01-05"
+        }
+    ]
+}
