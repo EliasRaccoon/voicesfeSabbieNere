@@ -1,9 +1,7 @@
 @if (post(); as p) {
   <div class="container mt-4">
-    <!-- TITOLO DEL POST [15.4] -->
     <h1>{{ p.title }}</h1>
 
-    <!-- COLLEGAMENTI SEMPLIFICATI [15.9, 210] -->
     <p>
       Blog: <a routerLink="/blog/{{ p.blog.id }}">{{ p.blog.title }}</a> | 
       Autore: <a routerLink="/blogger/{{ p.blog.blogger.id }}">{{ p.blog.blogger.nickname }}</a>
@@ -11,11 +9,12 @@
 
     <hr>
 
-    <!-- CONTENUTO FORMATTATO [15.5, 933] -->
-    <!-- [innerHTML] serve per interpretare i tag <b> e <i> che arrivano dal JSON -->
-    <div class="post-content mb-5" [innerHTML]="p.content"></div>
+    <div class="post-content mb-5">
+      @for (paragraph of paragraphs(); track $index) {
+        <p [innerHTML]="paragraph | parseMarkdown"></p>
+      }
+    </div>
 
-    <!-- ELENCO DEI COMMENTI [17.5, 76] -->
     <section>
       <h3>Commenti</h3>
       @for (c of comments(); track c.id) {
@@ -29,7 +28,6 @@
         <p>Nessun commento.</p>
       }
 
-      <!-- FORM PER AGGIUNGERE UN COMMENTO [15.6, 98] -->
       <div class="mt-4 p-3 bg-light">
         <h5>Aggiungi un commento</h5>
         <form (ngSubmit)="addComment()">
