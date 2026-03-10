@@ -1,0 +1,37 @@
+{
+    "id": 1,
+    "title": "Post 1",
+    "content": "Java è uno dei linguaggi più diffusi al mondo, nato nel 1995 con l'obiettivo di essere **write once, run anywhere**.\n\nIl suo punto di forza è la *JVM* — la Java Virtual Machine — che astrae il codice dal sistema operativo sottostante, permettendo la stessa applicazione di girare su Windows, Linux e macOS senza modifiche.\n\nIn questo post esploriamo le basi: variabili, tipi primitivi e il primo programma `HelloWorld`. Un punto di partenza solido per chiunque voglia avvicinarsi al linguaggio.\n\nNel prossimo episodio vedremo la **programmazione orientata agli oggetti**: classi, oggetti, ereditarietà e polimorfismo.",
+    "tags": "java",
+    "date": "2026-01-01",
+    "blog": {
+        "id": 1,
+        "title": "Blog 1",
+        "description": "Blog java",
+        "blogger": {
+            "id": 1,
+            "nickname": "Java Sifu",
+            "bio": "Blogger Java"
+        }
+    },
+    "comments": [
+        {
+            "id": 1,
+            "author": "mario_rossi",
+            "content": "Ottimo post, molto chiaro!",
+            "date": "2026-01-02"
+        },
+        {
+            "id": 2,
+            "author": "giulia_dev",
+            "content": "Finalmente una spiegazione semplice. Grazie!",
+            "date": "2026-01-03"
+        },
+        {
+            "id": 3,
+            "author": "luca_java",
+            "content": "Hai considerato anche il caso con Spring Boot 3?",
+            "date": "2026-01-04"
+        }
+    ]
+}

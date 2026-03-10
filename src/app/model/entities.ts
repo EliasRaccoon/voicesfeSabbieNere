@@ -23,3 +23,15 @@ export interface BlogPost{
     date:string;
     blog:Blog;
 }
+
+export interface Comment {
+  id: number;
+  author: string;
+  content: string;
+  date: string;
+}
+
+// Estendiamo il tipo per includere i commenti nel mockup
+export interface BlogPostFullData extends BlogPost {
+  comments: Comment[];
+}
